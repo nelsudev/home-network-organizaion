@@ -5,11 +5,7 @@
 | 1   | 192.168.1.1   | 9C-71-3A-AD-F7-7C | vodafonegw                       | LAN        | Router              | Static               | Primary Gateway                           |
 | 2   | 192.168.1.3   | 48-22-54-40-B7-D7 | Switch TP-LINK                   | LAN        | Router/Access Point | Static               | Core Switch                               |
 | 11  | 192.168.1.101 | A8-A1-59-55-37-6E | host.docker.internal             | LAN        | Home Server         | Unknown              | Office Desktop                            |
-| 12  | 192.168.1.131 | 00-15-5D-01-0A-03 | CASA-SERVER                      | LAN        | Home Server         | Unknown              | Casa Server                               |
-| 13  | 192.168.1.95  | 00-15-5D-01-0C-0C | —                                | Unknown    | Home Server         | Unknown              | Server Node 95                            |
-| 14  | 192.168.1.130 | 00-15-5D-01-0A-05 | —                                | Unknown    | Home Server         | Unknown              | Server Node 130                           |
-| 15  | 192.168.1.165 | 00-15-5D-01-0A-08 | —                                | Unknown    | Home Server         | Unknown              | Server Node 165                           |
-| 60  | 192.168.1.104 | E8-39-35-53-D1-07 | namek                            | Unknown    | PC                  | Unknown              | Workstation Namek                         |
+| 12  | 192.168.1.131 | 00-15-5D-01-0A-03 | CASA-SERVER                      | LAN        | Home Server         | Unknown              | Casa Server (Hyper-v Machine)             |
 | 61  | 192.168.1.166 | 60-6E-8C-27-F2-06 | M2101K6G.lan                     | WiFi       | Smartphone          | DHCP                 | Xiaomi Phone                              |
 | 62  | 192.168.1.192 | 3C-9C-0F-05-0C-47 | Redmi-Note-14-Pro-5G.lan         | WiFi       | Smartphone          | DHCP                 | Redmi Note 14 Pro                         |
 | 63  | 192.168.1.186 | AA-7D-50-0C-55-24 | iPhone.lan                       | WiFi       | Smartphone          | DHCP                 | iPhone                                    |
