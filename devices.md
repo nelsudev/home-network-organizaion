@@ -9,7 +9,6 @@
 | 13  | 192.168.1.95  | 00-15-5D-01-0C-0C | —                                | Unknown    | Home Server         | Unknown | Server Node 95            |
 | 14  | 192.168.1.130 | 00-15-5D-01-0A-05 | —                                | Unknown    | Home Server         | Unknown | Server Node 130           |
 | 15  | 192.168.1.165 | 00-15-5D-01-0A-08 | —                                | Unknown    | Home Server         | Unknown | Server Node 165           |
-| 20  | 192.168.1.102 | BC-10-2F-6E-EA-99 | Samsung-Room-Air-Conditioner.lan | WiFi       | Home Appliance      | DHCP    | AC Living Room            |
 | 21  | 192.168.1.109 | E8-68-E7-C1-7A-62 | shellyplug-s-C17A62.lan          | WiFi       | Home Appliance      | DHCP    | Shelly Plug C17A62        |
 | 22  | 192.168.1.108 | E8-68-E7-C1-70-4C | shellyplug-s-C17D4C.lan          | WiFi       | Home Appliance      | DHCP    | Shelly Plug C17D4C        |
 | 23  | 192.168.1.107 | C8-C9-A3-A5-10-F3 | shellyplug-s-C8C9A3A510F3.lan    | WiFi       | Home Appliance      | DHCP    | Shelly Plug A510F3        |
@@ -23,14 +22,9 @@
 | 31  | 192.168.1.163 | 80-64-6F-CD-82-3C | shellyplusplugs-80646fd823c.lan  | WiFi       | Home Appliance      | DHCP    | Shelly Plus Plug 823C     |
 | 32  | 192.168.1.172 | A8-5E-7C-A7-24-C1 | shellyplug-s-A724C1.lan          | WiFi       | Home Appliance      | DHCP    | Shelly Plug A724C1        |
 | 33  | 192.168.1.170 | E4-83-23-3F-66-3C | shelly2pmg3-e483233f663c.lan     | WiFi       | Home Appliance      | DHCP    | Shelly 2PM G3             |
-| 34  | 192.168.1.167 | BC-10-2F-28-65-97 | Samsung-Room-Air-Conditioner.lan | WiFi       | Home Appliance      | DHCP    | AC Bedroom                |
 | 35  | 192.168.1.174 | EC-DA-3B-C2-FC-18 | shellypmminig3-ecda3bc2fc18.lan  | WiFi       | Home Appliance      | DHCP    | Shelly PM Mini G3         |
 | 36  | 192.168.1.179 | 7C-2A-67-67-14-20 | shelly1minig3-7c2a67671420.lan   | WiFi       | Home Appliance      | DHCP    | Shelly 1 Mini G3          |
 | 37  | 192.168.1.184 | 54-32-04-65-C7-94 | shellyplug-s3-8cbfeaa42508.lan   | WiFi       | Home Appliance      | DHCP    | Shelly Plug 42508         |
-| 38  | 192.168.1.187 | BC-10-2F-28-65-97 | Samsung-Room-Air-Conditioner.lan | WiFi       | Home Appliance      | DHCP    | AC Office                 |
-| 40  | 192.168.1.171 | 48-22-54-02-F7-4C | deco-M4R.lan                     | WiFi       | Mesh Access Point   | DHCP    | Deco Node 1               |
-| 41  | 192.168.1.173 | 48-22-54-03-32-64 | deco-M4R.lan                     | WiFi       | Mesh Access Point   | DHCP    | Deco Node 2               |
-| 42  | 192.168.1.175 | 8C-8F-EA-AA-52-05 | deco-M4R.lan                     | WiFi       | Mesh Access Point   | DHCP    | Deco Node 3               |
 | 60  | 192.168.1.104 | E8-39-35-53-D1-07 | namek                            | Unknown    | PC                  | Unknown | Workstation Namek         |
 | 61  | 192.168.1.166 | 60-6E-8C-27-F2-06 | M2101K6G.lan                     | WiFi       | Smartphone          | DHCP    | Xiaomi Phone              |
 | 62  | 192.168.1.192 | 3C-9C-0F-05-0C-47 | Redmi-Note-14-Pro-5G.lan         | WiFi       | Smartphone          | DHCP    | Redmi Note 14 Pro         |
@@ -44,7 +38,13 @@
 | 94  | 192.168.1.121 | F0-C8-14-37-82-6C | unknownf0c81437826c.lan          | Unknown    | Unknown             | Unknown | Xiaomi Vaccum mop 2s      |
 | 95  | 192.168.1.120 | 80-D2-E5-58-E6-AF | unknown80d2e558e6af.lan          | Unknown    | Unknown             | Unknown | Nintendo Switch           |
 | 96  | 192.168.1.168 | DC-ED-83-B8-26-26 | unknowndced83b82626.lan          | Unknown    | Unknown             | Unknown | Xiaomi Smart Food Feeder  |
-| 97  | 192.168.1.199 | 9C-28-40-08-81-1C | unknown9c28400881.lan            | Unknown    | Unknown             | Unknown | Mounsieur Cuisine Connect |
+| 20  | 192.168.1.192 | BC-10-2F-28-35-97 | Samsung-Room-Air-Conditioner.lan | WiFi       | Home Appliance      | Static  | AC Living Room            |
+| 34  | 192.168.1.193 | bc:10:2f:3a:45:c1 | Samsung-Room-Air-Conditioner.lan | WiFi       | Home Appliance      | Static  | AC Bedroom                |
+| 38  | 192.168.1.194 | BC-10-2F-28-65-97 | Samsung-Room-Air-Conditioner.lan | WiFi       | Home Appliance      | Static  | AC Office                 |
+| 40  | 192.168.1.195 | 48-22-54-02-E7-E4 | deco-M4R.lan                     | WiFi       | Mesh Access Point   | DHCP    | Deco Node 1               |
+| 41  | 192.168.1.196 | 48-22-54-03-32-E4 | deco-M4R.lan                     | WiFi       | Mesh Access Point   | DHCP    | Deco Node 2               |
+| 42  | 192.168.1.197 | 48-22-54-03-35-70 | deco-M4R.lan                     | WiFi       | Mesh Access Point   | DHCP    | Deco Node 3               |
+| 97  | 192.168.1.180 | 9C:28:40:E0:08:81 | unknown9c28400881.lan            | WiFi       | Home Appliance      | Static  | Mounsieur Cuisine Connect |
 
 ## ID Allocation Rules
 
