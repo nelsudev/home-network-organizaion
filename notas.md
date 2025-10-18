@@ -14,3 +14,14 @@ A8:A1:59:55:37:6E -> Office Desktop
 bc:10:2f:6e:ea:99 Samsung-Room-Air-Conditioner
 bc:10:2f:3a:45:c1 Samsung-Room-Air-Conditioner
 BC:10:2F:28:65:97 Samsung-Room-Air-Conditioner
+
+Divisões da casa:
+Quarto
+Escritorio
+Hall
+Casa de Banho
+Cozinha
+Sala
+
+Management (Mesh - Decos)
+197-200
