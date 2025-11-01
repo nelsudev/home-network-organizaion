@@ -1,0 +1,226 @@
+ cat /etc/config/dhcp
+
+config dnsmasq
+        option domainneeded '1'
+        option localise_queries '1'
+        option rebind_protection '1'
+        option rebind_localhost '1'
+        option local '/lan/'
+        option domain 'lan'
+        option expandhosts '1'
+        option cachesize '1000'
+        option authoritative '1'
+        option readethers '1'
+        option leasefile '/tmp/dhcp.leases'
+        option resolvfile '/tmp/resolv.conf.d/resolv.conf.auto'
+        option localservice '1'
+        option ednspacket_max '1232'
+        option dhcpleasemax '100'
+        option sequential_ip '1'
+
+config dhcp 'lan'
+        option interface 'lan'
+        option start '100'
+        option limit '100'
+        option leasetime '12h'
+        option dhcpv4 'server'
+        option dhcpv6 'server'
+        option ra 'server'
+        list ra_flags 'managed-config'
+        list ra_flags 'other-config'
+        option dns_service '0'
+        list dhcp_option '3,192.168.1.1'
+        list dhcp_option '6,8.8.8.8,1.1.1.1'
+
+config odhcpd 'odhcpd'
+        option maindhcp '0'
+        option leasefile '/tmp/hosts/odhcpd'
+        option leasetrigger '/usr/sbin/odhcpd-update'
+        option loglevel '4'
+
+config host
+        option name 'switch-tplink'
+        list mac '48:22:54:40:B7:D7'
+        option ip '192.168.1.3'
+
+config host
+        option name 'telemovel-nelson'
+        list mac '60:6E:E8:27:F2:06'
+        option ip '192.168.1.80'
+
+config host
+        option name 'telemovel-Marta'
+        list mac '2A:CC:DC:78:D7:7F'
+        option ip '192.168.1.81'
+
+config host
+        option name 'telemovel-marta-trabalho-iphone'
+        list mac 'AA:7D:50:0C:55:24'
+        option ip '192.168.1.88'
+
+config host
+        option name 'Desktop'
+        list mac 'A8:A1:59:55:37:6E'
+        option ip '192.168.1.101'
+
+config host
+        option name 'escritorio-hp-nas'
+        list mac 'e8:39:35:35:d1:d7'
+        option ip '192.168.1.104'
+        list tag 'static'
+
+config host
+        option name 'nelson-laptop-miew-usbc'
+        list mac '98:FC:84:E6:72:27'
+        option ip '192.168.1.120'
+
+config host
+        option name 'shelly-marquise-maq-roupa'
+        option ip '192.168.1.128'
+        list mac '3C:E9:0E:C8:76:A5'
+
+config host
+        option name 'shelly-marquise-maq-sear'
+        list mac 'E8:68:E7:C1:7A:62'
+        option ip '192.168.1.130'
+
+config host
+        option name 'sala-nintendo-switch'
+        list mac '80:D2:E5:58:E6:AF'
+        option ip '192.168.1.147'
+
+config host
+        option name 'shelly-escritorio-interruptor'
+        list mac '7C:2C:67:67:14:20'
+        option ip '192.168.1.149'
+
+config host
+        option name 'shelly-quarto-termometro'
+        list mac '54:32:04:63:92:20'
+        option ip '192.168.1.150'
+
+config host
+        option name 'shelly-quarto-candeeiro-marta'
+        list mac '8C:BF:EA:A0:F9:BC'
+        option ip '192.168.1.151'
+
+config host
+        option name 'shellyhtg3-8cbfeaa5b250'
+        option ip '192.168.1.152'
+        list mac '8C:BF:EA:A5:B2:50'
+
+config host
+        option name 'escritorio-impressora'
+        list mac '44:D2:44:3E:E3:94'
+        option ip '192.168.1.159'
+
+config host
+        option name 'shelly-quarto-candeeiro-nelson'
+        list mac '80:64:6F:CD:82:3C'
+        option ip '192.168.1.163'
+
+config host
+        option name 'shelly-escritorio-contador'
+        list mac 'E8:68:E7:C1:81:33'
+        option ip '192.168.1.164'
+
+config host
+        option name 'shelly-quarto-interruptor'
+        list mac 'E4:B3:23:3F:66:3C'
+        option ip '192.168.1.170'
+
+config host
+        option name 'shelly-cozinha-pm-ar-condicionado'
+        list mac 'EC:DA:3B:C2:FC:18'
+        option ip '192.168.1.174'
+
+config host
+        option name 'shelly-escritorio-desktop'
+        list mac '8C:BF:EA:A4:25:08'
+        option ip '192.168.1.184'
+
+config host
+        option name 'shelly-marquise-maq-secar'
+        list mac '54:32:04:65:c7:96'
+        option ip '192.168.1.189'
+
+config host
+        option name 'shelly-cozinha-luz-bancada'
+        list mac 'E8:68:E7:C1:7D:4C'
+        option ip '192.168.1.194'
+
+config host
+        option ip '192.168.1.197'
+        list mac 'BC:10:2F:28:65:97'
+        option name 'Samsung-Room-Air-Conditioner'
+
+config host
+        option ip '192.168.1.198'
+        list mac 'BC:10:2F:3A:45:C1'
+        option name 'Samsung-Room-Air-Conditioner'
+
+config host
+        option name 'Samsung-Room-Air-Conditioner'
+        option ip '192.168.1.199'
+        list mac 'BC:10:2F:6E:EA:99'
+
+config host
+        option ip '192.168.1.200'
+        list mac '48:22:54:02:E7:E4'
+        option name 'deco-m4r'
+
+config host
+        option name 'deco-M4R'
+        option ip '192.168.1.201'
+        list mac '48:22:54:03:32:E4'
+        list tag 'static'
+
+config host
+        option ip '192.168.1.202'
+        list mac '48:22:54:03:35:70'
+        option name 'deco-m4r'
+
+config host
+        option name 'Xiaomi-airpurifier'
+        option ip '192.168.1.203'
+        list mac '54:48:E6:87:72:4D'
+
+config host
+        option name 'Xiaomi-vaccummop'
+        list mac 'F0:C8:14:37:82:6C'
+        option ip '192.168.1.204'
+
+config host
+        option name 'Xiaomi-petfeeder'
+        list mac 'DC:ED:83:B8:26:26'
+        option ip '192.168.1.205'
+
+config host
+        option name 'Shelly-desumidificador'
+        list mac '54:32:04:67:71:48'
+        option ip '192.168.1.214'
+
+config host
+        option name 'Sala-VodafoneTVPLAY'
+        list mac 'D8:CF:61:A7:A9:3E'
+        option ip '192.168.1.230'
+
+config host
+        option name 'Sala-VodafoneTVPLAY-WIFI'
+        list mac 'D8:CF:61:A1:A9:3F'
+        option ip '192.168.1.231'
+
+config host
+        option name 'Sala-PhillipsTV'
+        list mac '24:B7:2A:74:E7:BB'
+        option ip '192.168.1.232'
+
+config host
+        option name 'Sala-Chromecast'
+        list mac 'DC:E5:5B:9A:49:E3'
+        option ip '192.168.1.233'
+
+config host
+        option name 'nelson-laptop-miew-wifi'
+        list mac 'E0:0A:F6:A0:B0:5F'
+        option ip '192.168.1.121'
