@@ -62,6 +62,7 @@
 
 | 21 | 192.168.1.xxx | E8:68:E7:C1:7A:62 | shellyplug-s-C17A62.lan | WiFi | Home Appliance | Static | Shelly Plug ...... C17A62 | ... |
 | 21 | 192.168.1.xxx | 54:32:04:65:c7:96 | shellyplug-s-c796.lan | WiFi | Home Appliance | Static | Shelly Plug ... C17A62 | ... |
+
 desconhecido : 96:C1:E4:88:54:CA
 Divisões:
 
